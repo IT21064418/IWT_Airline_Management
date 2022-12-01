@@ -1,0 +1,193 @@
+
+*{
+    margin:0; padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cont{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/flight.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+    flex-flow: column;
+    display: flex;
+}
+
+form{
+    background: #e7e7e7f2;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+    box-shadow: 0 0 50px #005f69;
+}
+
+.input{
+    margin-top: 20px;
+    flex:1 1 150px;
+}
+
+.input span{
+    display: block;
+    color:rgb(59, 59, 59);
+    padding-bottom: 5px;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color:#444;
+    border:1px solid rgba(0,0,0,.3);
+}
+
+input:hover {
+	border: 1px solid #0aa0db;
+}
+
+select:hover {
+	border: 1px solid #0aa0db;
+}
+
+.flex{
+    display: flex;
+    gap:15px;
+}
+
+.Btn{
+    float: right;
+    background-color: #080230fd;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 5px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Btn:hover{
+    border: 1px solid #0c0941;
+}
+
+.card{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    margin-bottom: -150px;
+}
+
+.frnt{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, #080230fd, #0a0a0aee);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+}
+
+.image2{
+    display: flex;
+    padding-top: 10px;
+    float:right;
+}
+
+.image1{
+    display:flex;
+    padding-top:10px;
+    height: 50px;
+    float:left;
+}
+
+.crdNo{
+    padding:30px 0;
+    font-size: 22px;
+    color:#fff;
+}
+
+.frnt .flex{
+    display: flex;
+}
+
+.Box:nth-child(1){
+    margin-right: auto;
+}
+
+.frnt .flex .Box{
+    font-size: 15px;
+    color:#fff;
+}
+
+.Back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    background:linear-gradient(45deg, #080230fd, #0a0a0aee);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    padding: 20px 0;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transition:transform .4s ease-out;
+    transform:perspective(1000px) rotateY(180deg);
+}
+
+.Strip{
+    background: #000;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.Back .Box{
+    padding: 0 20px;
+}
+
+.Back .Box span{
+    color:#fff;
+    font-size: 15px;
+}
+
+.CVV{
+    height: 50px;
+    padding: 10px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.card .Back .Box img{
+    margin-top: 30px;
+    height: 30px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .cont, form, input[type=submit], input[type=reset] {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+  }
+  
+  .btn a {
+	  color: white;
+	  text-decoration: none;
+  }
+  

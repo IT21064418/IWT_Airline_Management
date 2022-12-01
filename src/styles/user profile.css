@@ -1,0 +1,180 @@
+<style>
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+
+}
+
+html{
+	box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+.main {
+    margin-top: 10%;
+    margin-left: 0px;
+    font-size: 35px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI',  Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.main .card {
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 0px white;
+    height: auto;
+    margin-bottom: 80px;
+    padding: 20px 0 50px 50px;
+}
+
+.main .card table {
+    border: 1 px;
+    font-size: 16px;
+    height: 250px;
+    width: 100%;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+
+
+
+.Btn {
+  background-color: #081c1f;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px 5px;
+  width: 30%;
+  font-size: 17px;
+  cursor: pointer;
+  float: Right;
+  position : absolute;
+  left: 34.5%;
+}
+
+.Btn:hover {
+  background-color: #32474a;
+}
+
+
+h1{
+	font-size: 60px;
+}
+
+
+
+
+
+.title-pen span {
+  color: #55acee;
+}
+
+body {
+  background-color:#346ff7;
+}
+
+.user-profile {
+  margin: auto;
+	width: 40em; 
+  height: auto;
+  background: #f1f7e1;
+  border-radius: .4em;
+}
+
+.user-profile  .username {
+  margin: auto;
+  margin-top: -4.40em;
+  margin-left: 5.80em;
+  color: #000000;
+  font-size: 1.53em;
+  font-family: "Coda", sans-serif;
+  font-weight: bold;
+}
+.user-profile  .id {
+  margin: auto;
+  display: inline-block;
+  margin-left: 10.43em;
+  color: #e76043; 
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+
+
+.user-profile > .contact {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 1.43em;
+  width: 20em;
+  color: #505757; 
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+.user-profile > .dob {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 1.43em;
+  width: 20em;
+  color: #505757; 
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+.user-profile > .address {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 1.43em;
+  width: 20em;
+  color: #505757; 
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+.user-profile > .mail {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 1.43em;
+  width: 20em;
+  color: #505757; 
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+
+
+
+.user-profile > img.avatar {
+	padding: .7em;
+  margin-left: .3em;
+  margin-top: .3em;
+  height: 6.23em;
+  width: 6.23em;
+  border-radius: 18em;
+}
+
+</style>

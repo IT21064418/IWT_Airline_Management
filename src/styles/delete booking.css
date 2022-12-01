@@ -1,0 +1,79 @@
+.delete-booking{
+	margin-top: 50px;
+    margin-bottom: 50px;	
+}
+
+.booking-delete{
+	width: 80%;
+	margin: auto;
+}
+
+.booking-details{
+	margin-top: 50px;
+}
+
+.booking-delete input{
+	margin-top: 5px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 1px solid #063970;
+}
+
+.booking-details input{
+	margin-top: 5px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 1px solid red;
+}
+
+.frm-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #063970;
+	padding: 12px 34px;
+	font-size:  13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.frm-btn:hover {
+	border: 1px solid #F8FD02;
+	background: #F8FD02;
+    transition: 1s;	
+}
+
+.frm-btn a {
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.dlt-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid red;
+	padding: 12px 34px;
+	font-size:  13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.dlt-btn:hover {
+	border: 1px solid red;
+	background: red;
+    transition: 1s;	
+}
+
+.dlt-btn a {
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}

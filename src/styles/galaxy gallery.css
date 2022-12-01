@@ -1,0 +1,36 @@
+
+
+h1{
+    text-align:center;
+    margin-top: 30%;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: ivory;
+}
+
+.pics{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+
+.image-box{
+    margin: 0.1cm;
+    flex-grow: 1;
+    flex-basis: 1%;
+    transition: .5s;
+}   
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .6s;
+}
+
+.image-box:hover{
+   flex-basis: 15%;
+}
+   

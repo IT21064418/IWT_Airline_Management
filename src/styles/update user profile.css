@@ -1,0 +1,181 @@
+<style>
+
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+
+}
+
+
+.main {
+    margin-top: 10%;
+    margin-left: 0px;
+    font-size: 35px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI',  Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+
+.main .card {
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 0px white;
+    height: auto;
+    margin-bottom: 80px;
+    padding: 20px 0 50px 50px;
+}
+
+
+.main .card table {
+    border: 1 px;
+    font-size: 16px;
+    height: 250px;
+    width: 100%;
+}
+
+
+
+h1{
+	font-size: 60px;
+}
+
+
+body {
+  background-color:#346ff7;
+}
+
+
+
+
+.user-profile {
+  margin: auto;
+	width: 25em; 
+  height: auto;
+  background: #f1f7e1;
+  border-radius: .4em;
+  border:4px solid #0C00CC;
+}
+
+
+
+
+
+
+
+.profile-pic {
+	padding: .7em;
+	margin-left: 2em;
+	margin-top: .3em;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.profile-pic span {
+    display: inline-block;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+}
+
+
+
+
+
+
+
+.user-profile  .id {
+padding: .3em;
+	margin-left: 12.5em;
+  color: #e76043; 
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+
+
+
+
+form input[type="file"] {
+          display: none;
+          cursor: pointer;
+ }
+
+
+form{
+	margin-left:250px;
+	font-weight:bold;
+}
+
+
+input{
+	width:350px;
+	height:40px;
+	border-radius:7px;
+	border:4px solid #0C00CC;
+	padding-left:5px;
+}
+
+
+
+
+
+
+
+.Btn {
+  background-color: #081c1f;
+  color: white;
+  border-radius: 8px;
+  border: 1px;
+  padding: 10px 20px;
+  margin: 5px 5px;
+  width: 30%;
+  font-size: 17px;
+  float:left;
+  
+}
+
+
+
+.Btn:hover {
+  background-color: #32474a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>

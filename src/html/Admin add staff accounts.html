@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Galaxy Airways | Admin section - Users</title>
+   <link rel="stylesheet" href="../styles/Admin.css">
+</head>
+<body>
+<!--header-->
+   <section class="sub-header">
+     <nav>
+        <a href="Home page.html"><img src="../images/logo.png"></a>
+		<!-- nav bar -->
+		<div class="nav-links" >
+		    <ul>
+			    <li><a href="Admin manage feedback.html">MANAGE FEEDBACK</a></li>
+				<li><a href="Admin manage users.html">MANAGE USERS</a></li>
+				<li><a href="Admin manage payments.php">MANAGE PAYMENTS</a></li>
+				<li><a href="Admin manage flights.html">FLIGHTS</a></li>
+			</ul>	
+		</div>		
+	 </nav>
+	 <h1>Add Staff Accounts</h1>
+   </section>
+
+<!--- Add staff account page content --->    
+    
+   <section class="admin-content">
+   
+     <!--- Admin buttons --->
+     <div class="flight-btn">
+	    <a href="Admin add staff accounts.html" class="admin-btn"> Add Staff Accounts </a>
+		<a href="Admin manage users.html" class="admin-btn"> Customer Accounts </a>
+		<a href="Admin user accounts-staff.html" class="admin-btn"> Manage Staff Accounts </a>
+     </div>
+     	 
+     <div class="content">
+	 
+	     <!--- add staff account form --->
+	    <form class="add-account">
+		    <label class="input-label">Enter Staff member Name: </label>
+		    <input type="text" name="staffID" placeholder="ex:- Santhusha Senanayake" class="txt-input" required>
+			
+			<label class="input-label">Enter email: </label>
+		    <input type="email" name="staffemail" placeholder="Enter email" class="txt-input" required>
+								
+		    <label class="input-label">Enter password: </label>
+		    <input type="password" name="staffpassword" placeholder="Enter password" class="txt-input" required>
+			
+			<label class="input-label">Re Enter the password: </label>
+		    <input type="password" name="staffpassword2" placeholder="Re enter the password" class="txt-input" required>
+		
+		    <button type="reset" class="admin-btn"> Clear </button>
+		    <button type="submit" class="admin-btn"> Add User </button>
+     </div>	
+	 
+   </section>
+   
+</body>
+</html>

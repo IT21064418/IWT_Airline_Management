@@ -1,0 +1,44 @@
+
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+  font-family:  sans-serif;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'cursive';
+  font-size: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.team .team_member{
+  background:rgb(225, 229, 233);
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;  
+  position: relative;
+}

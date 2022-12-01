@@ -1,0 +1,95 @@
+<?php
+include 'config.php';
+
+$sql = "SELECT * FROM register WHERE user_id = '3'";
+$result = $connection ->query($sql);
+$row = mysqli_fetch_assoc($result2);
+    $id = $row["user_id"];
+	$name = $row["username"];
+	$country = $row["country"];
+	$phone = $row["phone"];
+	$email = $row["email"];
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Galaxy Airways | User Profile</title>
+   <link rel="stylesheet" href="../styles/header and footer.css">
+</head>
+<body>
+<!--header-->
+   <section class="sub-header">
+     <nav>
+        <a href="Home page.html"><img src="../images/logo.png"></a>
+		<!-- nav bar -->
+		<div class="nav-links" >
+           <ul>
+			    <li><a href="Home page.html">HOME</a></li>
+				<li><a href="booking1.html">BOOKINGS</a></li>
+				<li><a href="about us.html">ABOUT US</a></li>
+				<li><a href="Contact us.php">CONTACT US</a></li>
+				<li><a href="my help page.html">HELP</a></li>
+				<li><a href="feedback.php">GIVE FEEDBACK</a></li>
+				<li><a href="user profile.html">USER PROFILE</a></li>
+				<li><a href="Sign up page.php">SIGN UP</a></li>
+				<li><a href="">LOGIN</a></li>
+			</ul>	
+		</div>		
+	 </nav>
+	 <h1>USER PROFILE</h1>
+   </section>
+	 
+	 
+	 <!-- Body -->
+	 
+<link rel="stylesheet" href="..\styles\user profile.css">
+
+  
+  <div class="main">
+   
+		<div class="user-profile">
+			<img class="avatar" src="../images/avatar.png" alt="Ash" />
+		
+		<div class="username"><?php echo'$name';?></div>
+		
+		<div class="id">001</div>
+    
+		<div class="contact">Contact No: 0763555701</div>
+		
+		<div class="dob">DOB: 29.02.2001</div>
+		
+		<div class="address">Address: Angoda,Colombo</div>
+		
+		<div class="mail">E-mail: namadanna@gmail.com</div>
+<br>
+	
+	<br>
+				<a href="../html/update user profile.html"><input type="submit" value="EDIT DETAILS" class="Btn"></a>
+</div>
+		
+		
+	<br>
+	<br>
+	<br>
+	
+	
+
+
+
+
+<!-- footer -->
+   
+   <section class="footer">
+     <h4><a href="privacy policy.html"> Privacy policy </a> | <a href="services.html">Our Services</a><h4>
+	 <p> +446475887 | +4420718389 | +612123457869 | +9474055342 | <a href="map.html">Where We fly</a> | <a href="">Terms and Conditions</a> | <a href="galaxy gallery.html">Gallery</a></p>
+	 <div class="icons">
+        <img src="../images/facebook.png">
+		<img src="../images/twitter.png">
+		<img src="../images/instagram.png">
+	 </div>
+	 <p>copyright all rights reserved</p>
+   </section>   
+</body>
+</html>

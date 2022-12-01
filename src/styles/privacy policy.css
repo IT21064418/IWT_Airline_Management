@@ -1,0 +1,45 @@
+h1 {
+  color: black;
+}
+body {
+	
+  text-align: justify;
+  background-color:#1b366b;
+  background-image: url(../images/galax.jpg);
+  
+   
+
+}
+
+article {
+  width: 70%;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: #d9e4ff;
+  padding: 15px;
+  margin: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 22px;
+}
+
+.article p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: black;
+  
+}
+
+h1{
+	color: white;
+	font-size: 60px;
+}
+
+h2{
+	text-align: center
+}
+
+h3{
+	text-align: center
+}
