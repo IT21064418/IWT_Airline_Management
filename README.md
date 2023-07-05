@@ -5,3 +5,4 @@ The Project centers around a website in which a passenger can demand dynamic req
 Used Languages: HTML CSS JS PHP
 
 Database: SQL
+![209427849-48b22c84-1c83-4cfc-a7a4-c2f17772938d](https://github.com/IT21064418/IWT_Airline_Management/assets/87406509/8001aab2-c760-4870-9aea-eb5d48dc0a44)
